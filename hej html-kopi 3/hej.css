@@ -1,0 +1,399 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 1.6;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #f25c24;
+}
+
+
+.contact-social {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.1);
+}
+
+
+.text-bar {
+    background-color: #c0c2c2;
+    color: #000000;
+    text-align: center;
+    padding: 60px 20px 40px;
+    position: relative;
+}
+
+.text-bar p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-bar .overlay-image {
+    position: absolute;
+    top: 0px;
+    left: 20%;
+    transform: translateX(-50%);
+    width: px;
+    height: auto;
+}
+
+
+.billede-container {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+.billede-container img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.billede-container img:hover {
+    transform: scale(1.05);
+}
+
+
+.text-bar2,
+.text-bar4,
+.text-bar5 {
+    text-align: center;
+    padding: 0px 0px;
+    color: #000000;
+}
+
+.text-bar2 {
+    background-color: #f25c24;
+    color: #ffffff;
+    padding: 40px 20px;
+}
+.text-bar2 a {
+    color: #ffffff; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+.text-bar2 a:hover {
+    text-decoration: underline; 
+}
+
+
+
+/
+.footer {
+    background-color: #d3d3d3;
+    padding: 20px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-left,
+.footer-right {
+    flex: 1 1 300px;
+}
+
+.footer-logo img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.footer-left p,
+.footer-right p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.footer-right a {
+    text-decoration: none;
+    color: #000000;
+    margin-bottom: 10px;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.footer-right a:hover {
+    color: #f25c24;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    padding: 40px 0; 
+    background-color: #ffffff; 
+}
+
+.box {
+    background-color: #f0f0f0; 
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1; 
+    max-width: 300px; 
+}
+
+.box a {
+    color: #333333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.box a:hover {
+    text-decoration: underline;
+}
+.facebook-box {
+    margin: 20px auto; 
+    max-width: 300px;  
+}
+
+.box1 {
+    background-color: #a6a9a9; 
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1; 
+    max-width: 300px; 
+    color: #000000; 
+}
+
+.box1 a {
+    color: #000000; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.box2 {
+    background-color: #37393b; 
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1; 
+    max-width: 300px; 
+    color: #ffffff; 
+}
+
+.box2 a {
+    color: #ffffff; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.link2 a {
+    color: #f68054;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+.text-bar3 {
+    background-color: #414347; 
+    color: #ffffff; 
+    text-align: center; 
+    padding: 40px 20px; 
+}
+
+
+.text-bar3 .fb-icon {
+    width: 24px; 
+    height: auto; 
+    vertical-align: middle; 
+    margin-left: 10px; 
+}
+
+
+.text-bar3 a {
+    color: #ffffff; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+.text-bar3 a:hover {
+    text-decoration: underline; 
+}
+
+    
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer {
+    background-color: #d3d3d3;
+    padding: 20px;
+    width: 100%; 
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+    flex: 1 1 300px;
+}
+
+.footer-logo {
+    width: 150px; 
+    height: auto;
+    margin-right: 20px; 
+}
+
+.footer-left p {
+    margin: 0;
+    font-size: 14px;
+    color: #333333;
+}
+
+.footer-left a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer-left a:hover {
+    color: #f25c24; 
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end; 
+    flex: 1 1 300px;
+}
+
+.footer-right a {
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 10px; 
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.footer-right a:hover {
+    color: #f25c24; 
+}
+
+.footer-right p {
+    margin: 0;
+    font-size: 14px;
+    color: #333333;
+}
+.text-bar7 {
+    text-align: center;
+    padding: 40px 20px;
+    color: #000000;
+}
+
+.text-bar7 {
+    background-color: #f3f0ef;
+    color: #000000;
+}
+.text-bar7 a {
+    color: #ffffff; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+.text-bar7 a:hover 
+    text-decoration: underline; 
+
+    .slider {
+        position: relative;
+        width: 100%;
+        margin: 20px;
+        overflow: hidden;
+    }
+    
+    .slider img {
+        width: 100%;
+        display:center;
+        justify-content: center
+    }
+    
+    .displaySlide {
+        display: ;
+        position: center;
+        justify-content: center
+    }
